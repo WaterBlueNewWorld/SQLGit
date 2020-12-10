@@ -22,7 +22,12 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="635d4f44-8e64-46f2-87b6-6b4767dfc855" name="Default Changelist" comment="Cambio de plantilla" />
+    <list default="true" id="635d4f44-8e64-46f2-87b6-6b4767dfc855" name="Default Changelist" comment="Cambio de plantilla">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.SQLGit/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SQLGit/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLGit.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/SQLGit.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLGit/SQLGit.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/SQLGit/SQLGit.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SQLGit/obj/Debug/SQLGit.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/SQLGit/obj/Debug/SQLGit.csprojAssemblyReference.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -30,6 +35,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/SQLGit/obj/Debug/.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" root0="SKIP_HIGHLIGHTING" />
@@ -38,6 +44,8 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/SQLGit/Views/Shared/_Layout.cshtml" />
+        <option value="$PROJECT_DIR$/.git/info/exclude" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -84,7 +92,7 @@
       <updated>1607621674954</updated>
       <workItem from="1607621685227" duration="15000" />
       <workItem from="1607621723026" duration="1231000" />
-      <workItem from="1607622983887" duration="703000" />
+      <workItem from="1607622983887" duration="2839000" />
     </task>
     <task id="LOCAL-00001" summary="Cambio de plantilla">
       <created>1607621840725</created>
@@ -100,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1607623577806</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="New packages">
+      <created>1607623784412</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1607623784412</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,9 +163,13 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="10" y="41" width="1182" height="544" key="VCS.FileHistoryDialog/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1607622238629" />
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607623584516">
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2" timestamp="1607623786361">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1607623584516" />
+    <state x="275" y="97" key="Vcs.Push.Dialog.v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1607623786361" />
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1607624873783">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="500" y="278" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1366.728/-1366.0.1366.728@0.0.1366.728" timestamp="1607624873783" />
   </component>
 </project>
