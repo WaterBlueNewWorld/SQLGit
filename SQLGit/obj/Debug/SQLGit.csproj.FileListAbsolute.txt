@@ -1,0 +1,2 @@
+C:\Users\Angel Pizaña\Documents\GitHub\SQLGit\SQLGit\obj\Debug\SQLGit.csprojAssemblyReference.cache
+C:\Users\Angel Pizaña\Documents\GitHub\SQLGit\SQLGit\obj\Debug\SQLGit.csproj.CoreCompileInputs.cache
