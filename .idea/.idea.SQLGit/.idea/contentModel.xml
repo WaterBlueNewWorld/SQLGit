@@ -46,6 +46,18 @@
         <e p="Scripts" t="Include">
           <e p="bootstrap.js" t="Include" />
           <e p="bootstrap.min.js" t="Include" />
+          <e p="esm" t="Include">
+            <e p="popper-utils.js" t="Include" />
+            <e p="popper-utils.js.map" t="Include" />
+            <e p="popper-utils.min.js" t="Include" />
+            <e p="popper-utils.min.js.map" t="Include" />
+            <e p="popper.js" t="Include" />
+            <e p="popper.js.map" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="popper.min.js.map" t="Include" />
+          </e>
+          <e p="index.d.ts" t="Include" />
+          <e p="index.js.flow" t="Include" />
           <e p="jquery-3.3.1.intellisense.js" t="Include" />
           <e p="jquery-3.3.1.js" t="Include" />
           <e p="jquery-3.3.1.min.js" t="Include" />
@@ -59,6 +71,97 @@
           <e p="jquery.validate.unobtrusive.js" t="Include" />
           <e p="jquery.validate.unobtrusive.min.js" t="Include" />
           <e p="modernizr-2.8.3.js" t="Include" />
+          <e p="popper-utils.js" t="Include" />
+          <e p="popper-utils.js.map" t="Include" />
+          <e p="popper-utils.min.js" t="Include" />
+          <e p="popper-utils.min.js.map" t="Include" />
+          <e p="popper.js" t="Include" />
+          <e p="popper.js.map" t="Include" />
+          <e p="popper.min.js" t="Include" />
+          <e p="popper.min.js.map" t="Include" />
+          <e p="README.md" t="Include" />
+          <e p="src" t="Include">
+            <e p="index.js" t="Include" />
+            <e p="methods" t="Include">
+              <e p="defaults.js" t="Include" />
+              <e p="destroy.js" t="Include" />
+              <e p="disableEventListeners.js" t="Include" />
+              <e p="enableEventListeners.js" t="Include" />
+              <e p="placements.js" t="Include" />
+              <e p="update.js" t="Include" />
+            </e>
+            <e p="modifiers" t="Include">
+              <e p="applyStyle.js" t="Include" />
+              <e p="arrow.js" t="Include" />
+              <e p="computeStyle.js" t="Include" />
+              <e p="flip.js" t="Include" />
+              <e p="hide.js" t="Include" />
+              <e p="index.js" t="Include" />
+              <e p="inner.js" t="Include" />
+              <e p="keepTogether.js" t="Include" />
+              <e p="offset.js" t="Include" />
+              <e p="preventOverflow.js" t="Include" />
+              <e p="shift.js" t="Include" />
+            </e>
+            <e p="utils" t="Include">
+              <e p="clockwise.js" t="Include" />
+              <e p="computeAutoPlacement.js" t="Include" />
+              <e p="debounce.js" t="Include" />
+              <e p="find.js" t="Include" />
+              <e p="findCommonOffsetParent.js" t="Include" />
+              <e p="findIndex.js" t="Include" />
+              <e p="getBordersSize.js" t="Include" />
+              <e p="getBoundaries.js" t="Include" />
+              <e p="getBoundingClientRect.js" t="Include" />
+              <e p="getClientRect.js" t="Include" />
+              <e p="getFixedPositionOffsetParent.js" t="Include" />
+              <e p="getOffsetParent.js" t="Include" />
+              <e p="getOffsetRect.js" t="Include" />
+              <e p="getOffsetRectRelativeToArbitraryNode.js" t="Include" />
+              <e p="getOppositePlacement.js" t="Include" />
+              <e p="getOppositeVariation.js" t="Include" />
+              <e p="getOuterSizes.js" t="Include" />
+              <e p="getParentNode.js" t="Include" />
+              <e p="getPopperOffsets.js" t="Include" />
+              <e p="getReferenceNode.js" t="Include" />
+              <e p="getReferenceOffsets.js" t="Include" />
+              <e p="getRoot.js" t="Include" />
+              <e p="getRoundedOffsets.js" t="Include" />
+              <e p="getScroll.js" t="Include" />
+              <e p="getScrollParent.js" t="Include" />
+              <e p="getStyleComputedProperty.js" t="Include" />
+              <e p="getSupportedPropertyName.js" t="Include" />
+              <e p="getViewportOffsetRectRelativeToArtbitraryNode.js" t="Include" />
+              <e p="getWindow.js" t="Include" />
+              <e p="getWindowSizes.js" t="Include" />
+              <e p="includeScroll.js" t="Include" />
+              <e p="index.js" t="Include" />
+              <e p="isBrowser.js" t="Include" />
+              <e p="isFixed.js" t="Include" />
+              <e p="isFunction.js" t="Include" />
+              <e p="isIE.js" t="Include" />
+              <e p="isModifierEnabled.js" t="Include" />
+              <e p="isModifierRequired.js" t="Include" />
+              <e p="isNumeric.js" t="Include" />
+              <e p="isOffsetContainer.js" t="Include" />
+              <e p="removeEventListeners.js" t="Include" />
+              <e p="runModifiers.js" t="Include" />
+              <e p="setAttributes.js" t="Include" />
+              <e p="setStyles.js" t="Include" />
+              <e p="setupEventListeners.js" t="Include" />
+            </e>
+          </e>
+          <e p="umd" t="Include">
+            <e p="popper-utils.js" t="Include" />
+            <e p="popper-utils.js.map" t="Include" />
+            <e p="popper-utils.min.js" t="Include" />
+            <e p="popper-utils.min.js.map" t="Include" />
+            <e p="popper.js" t="Include" />
+            <e p="popper.js.flow" t="Include" />
+            <e p="popper.js.map" t="Include" />
+            <e p="popper.min.js" t="Include" />
+            <e p="popper.min.js.map" t="Include" />
+          </e>
         </e>
         <e p="SQLGit.csproj" t="IncludeRecursive" />
         <e p="Views" t="Include">
