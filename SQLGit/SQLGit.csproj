@@ -43,17 +43,8 @@
         <WarningLevel>4</WarningLevel>
     </PropertyGroup>
     <ItemGroup>
-        <Reference Include="DevExpress.BonusSkins.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.BonusSkins.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Charts.Designer.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Charts.Designer.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Charts.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Charts.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.CodeConverter.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.CodeConverter.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.CodeParser.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.CodeParser.v19.1.dll</HintPath>
@@ -64,20 +55,11 @@
         <Reference Include="DevExpress.Dashboard.v19.1.Web, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Web.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.Dashboard.v19.1.Web.Mvc, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Web.Mvc.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Dashboard.v19.1.Web.Mvc5, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Web.Mvc5.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Dashboard.v19.1.Web.WebForms, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Web.WebForms.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Dashboard.v19.1.Win, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Win.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Dashboard.v19.1.Wpf, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dashboard.v19.1.Wpf.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Data.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Data.v19.1.dll</HintPath>
@@ -88,287 +70,14 @@
         <Reference Include="DevExpress.DataAccess.v19.1.UI, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DataAccess.v19.1.UI.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.DemoData.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DemoData.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.DemoData.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DemoData.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.DemoReports.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=4c3bc44151be4b47">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DemoReports.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.DevAV.v19.1.Data, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DevAV.v19.1.Data.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.DevAV.v19.1.Reports, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.DevAV.v19.1.Reports.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Diagram.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Diagram.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Dialogs.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Dialogs.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Docs.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Docs.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.EasyTest.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.EasyTest.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.AuditTrail.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.AuditTrail.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Chart.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Chart.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Chart.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Chart.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Chart.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Chart.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.CloneObject.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.CloneObject.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.CloneObject.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.CloneObject.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ConditionalAppearance.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ConditionalAppearance.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ConditionalAppearance.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Dashboards.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Dashboards.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Dashboards.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Dashboards.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Dashboards.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Dashboards.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.DataService.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.DataService.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.EasyTest.WebAdapter.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.EasyTest.WebAdapter.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.EasyTest.WinAdapter.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.EasyTest.WinAdapter.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.EF.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.EF.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.FileAttachment.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.FileAttachment.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.FileAttachment.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.FileAttachment.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.FileAttachment.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.FileAttachment.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.HtmlPropertyEditor.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.HtmlPropertyEditor.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.HtmlPropertyEditor.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.HtmlPropertyEditor.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Images.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Images.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Kpi.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Kpi.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Localization.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Localization.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Maps.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Maps.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Maps.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Maps.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Notifications.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Notifications.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Notifications.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Notifications.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Notifications.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Notifications.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Objects.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Objects.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Office.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Office.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Office.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Office.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Office.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Office.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotChart.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotChart.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotChart.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotChart.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotChart.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotChart.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotGrid.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotGrid.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotGrid.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.PivotGrid.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.PivotGrid.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Reports.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Reports.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Reports.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Reports.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Reports.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Reports.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ReportsV2.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ReportsV2.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ReportsV2.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ReportsV2.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ReportsV2.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ReportsV2.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ReportsV2.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ReportsV2.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Scheduler.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Scheduler.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Scheduler.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Scheduler.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Scheduler.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Scheduler.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ScriptRecorder.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ScriptRecorder.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ScriptRecorder.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ScriptRecorder.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ScriptRecorder.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ScriptRecorder.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Security.EF.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Security.EF.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Security.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Security.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Security.Xpo.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Security.Xpo.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Spa.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Spa.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.StateMachine.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.StateMachine.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.TreeListEditors.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.TreeListEditors.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.TreeListEditors.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.TreeListEditors.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.TreeListEditors.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.TreeListEditors.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Validation.Mobile.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Validation.Mobile.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Validation.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Validation.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Validation.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Validation.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Validation.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Validation.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.ViewVariantsModule.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.ViewVariantsModule.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Web.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Workflow.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Workflow.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Workflow.Win.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Workflow.Win.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.ExpressApp.Xpo.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.ExpressApp.Xpo.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Images.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Images.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Map.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Map.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1.DataModel, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.DataModel.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1.DataModel.EF6, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.DataModel.EF6.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1.DataModel.EFCore, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.DataModel.EFCore.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1.DataModel.WCF, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.DataModel.WCF.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Mvvm.v19.1.ViewModel, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Mvvm.v19.1.ViewModel.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Office.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Office.v19.1.Core.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Pdf.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Pdf.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Pdf.v19.1.Drawing, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Pdf.v19.1.Drawing.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Persistent.Base.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Persistent.Base.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Persistent.BaseImpl.EF.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Persistent.BaseImpl.EF.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Persistent.BaseImpl.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Persistent.BaseImpl.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.PivotGrid.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.PivotGrid.v19.1.Core.dll</HintPath>
@@ -382,21 +91,6 @@
         <Reference Include="DevExpress.RichEdit.v19.1.Export, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.RichEdit.v19.1.Export.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.SharePoint.2013.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.SharePoint.2013.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.SharePoint.2016.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.SharePoint.2016.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Snap.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Snap.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Snap.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Snap.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Snap.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Snap.v19.1.Extensions.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Sparkline.v19.1.Core.dll</HintPath>
         </Reference>
@@ -409,17 +103,11 @@
         <Reference Include="DevExpress.TreeMap.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.TreeMap.v19.1.Core.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.Tutorials.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Tutorials.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Utils.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Utils.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Utils.v19.1.UI, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Utils.v19.1.UI.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Web.ASPxGauges.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.ASPxGauges.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.Web.ASPxHtmlEditor.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.ASPxHtmlEditor.v19.1.dll</HintPath>
@@ -445,15 +133,6 @@
         <Reference Include="DevExpress.Web.ASPxTreeList.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.ASPxTreeList.v19.1.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.Web.Bootstrap.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.Bootstrap.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Web.DemoTheme.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.DemoTheme.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Web.Mvc.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.Mvc.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Web.Mvc5.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.Mvc5.v19.1.dll</HintPath>
         </Reference>
@@ -463,227 +142,8 @@
         <Reference Include="DevExpress.Web.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Web.v19.1.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.Workflow.Activities.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Workflow.Activities.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Workflow.Activities.v19.1.Design, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Workflow.Activities.v19.1.Design.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Accordion.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Accordion.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Carousel.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Carousel.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Charts.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Charts.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.CodeView.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.CodeView.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Controls.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Controls.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Core.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Core.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Core.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Core.v19.1.Extensions.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Dashboard.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Dashboard.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.DataAccess.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.DataAccess.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.DemoBase.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.DemoBase.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Diagram.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Diagram.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Dialogs.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Dialogs.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Docking.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Docking.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.DocumentViewer.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.DocumentViewer.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.ExpressionEditor.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.ExpressionEditor.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Gantt.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Gantt.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Gauges.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Gauges.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Grid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Grid.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Grid.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Grid.v19.1.Extensions.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Layout.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Layout.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.LayoutControl.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.LayoutControl.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Map.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Map.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.NavBar.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.NavBar.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.PdfViewer.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.PdfViewer.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.PivotGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.PivotGrid.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Printing.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Printing.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.PrismAdapters.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.PrismAdapters.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.PropertyGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.PropertyGrid.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.ReportDesigner.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.ReportDesigner.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Ribbon.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Ribbon.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.RichEdit.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.RichEdit.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Scheduler.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Scheduler.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Scheduling.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Scheduling.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.SpellChecker.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.SpellChecker.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.SpellChecker.v19.1.Design, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.SpellChecker.v19.1.Design.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Spreadsheet.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Spreadsheet.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.DXStyle.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.DXStyle.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.HybridApp.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.HybridApp.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.LightGray.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.LightGray.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.MetropolisDark.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.MetropolisDark.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.MetropolisLight.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.MetropolisLight.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2007Black.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2007Black.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2007Blue.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2007Blue.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2007Silver.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2007Silver.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2010Black.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2010Black.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2010Blue.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2010Blue.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2010Silver.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2010Silver.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2013.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2013.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2013DarkGray.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2013DarkGray.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2013LightGray.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2013LightGray.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016Black.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016Black.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016BlackSE.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016BlackSE.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016Colorful.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016Colorful.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016ColorfulSE.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016DarkGraySE.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016White.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016White.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2016WhiteSE.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2016WhiteSE.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2019Black.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2019Black.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2019Colorful.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2019Colorful.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2019DarkGray.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2019DarkGray.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Office2019White.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Office2019White.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.Seven.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.Seven.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.TouchlineDark.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.TouchlineDark.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.VS2010.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.VS2010.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.VS2017Blue.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.VS2017Blue.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.VS2017Dark.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.VS2017Dark.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.Themes.VS2017Light.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.Themes.VS2017Light.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.TreeMap.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.TreeMap.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpf.TypedStyles.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpf.TypedStyles.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.Xpo.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpo.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.Xpo.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.Xpo.v19.1.Extensions.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraBars.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraBars.v19.1.dll</HintPath>
@@ -694,20 +154,11 @@
         <Reference Include="DevExpress.XtraCharts.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraCharts.v19.1.Extensions.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.XtraCharts.v19.1.UI, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraCharts.v19.1.UI.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.XtraCharts.v19.1.Web, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraCharts.v19.1.Web.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraCharts.v19.1.Wizard, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraCharts.v19.1.Wizard.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraDiagram.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraDiagram.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraDialogs.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraDialogs.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraEditors.v19.1.dll</HintPath>
@@ -733,9 +184,6 @@
         <Reference Include="DevExpress.XtraNavBar.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraNavBar.v19.1.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.XtraPdfViewer.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraPdfViewer.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.XtraPivotGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraPivotGrid.v19.1.dll</HintPath>
         </Reference>
@@ -744,9 +192,6 @@
         </Reference>
         <Reference Include="DevExpress.XtraReports.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraReports.v19.1.CodeCompletion, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.CodeCompletion.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraReports.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.Extensions.dll</HintPath>
@@ -757,38 +202,14 @@
         <Reference Include="DevExpress.XtraReports.v19.1.Web, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.Web.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.XtraReports.v19.1.Web.Azure, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.Web.Azure.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.XtraReports.v19.1.Web.WebForms, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraReports.v19.1.Web.WebForms.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraRichEdit.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraRichEdit.v19.1.dll</HintPath>
         </Reference>
-        <Reference Include="DevExpress.XtraScheduler.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.dll</HintPath>
-        </Reference>
         <Reference Include="DevExpress.XtraScheduler.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.Core.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraScheduler.v19.1.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.Extensions.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraScheduler.v19.1.GoogleCalendar, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.GoogleCalendar.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraScheduler.v19.1.Reporting, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.Reporting.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraScheduler.v19.1.Reporting.Extensions, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraScheduler.v19.1.Reporting.Extensions.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraSpellChecker.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraSpellChecker.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraSpreadsheet.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraSpreadsheet.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="DevExpress.XtraTreeList.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraTreeList.v19.1.dll</HintPath>
@@ -798,9 +219,6 @@
         </Reference>
         <Reference Include="DevExpress.XtraVerticalGrid.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
           <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraVerticalGrid.v19.1.dll</HintPath>
-        </Reference>
-        <Reference Include="DevExpress.XtraWizard.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\DevExpress.XtraWizard.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
           <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
@@ -865,9 +283,6 @@
         </Reference>
         <Reference Include="Newtonsoft.Json">
             <HintPath>..\packages\Newtonsoft.Json.11.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
-        </Reference>
-        <Reference Include="Web.DemoData.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a">
-          <HintPath>..\..\..\..\..\Program Files (x86)\DevExpress 19.1\Components\Bin\Framework\Web.DemoData.v19.1.dll</HintPath>
         </Reference>
         <Reference Include="WebGrease">
             <Private>True</Private>
