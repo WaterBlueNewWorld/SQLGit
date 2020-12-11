@@ -1,4 +1,0 @@
-**.user
-.vs/
-.idea/
-**/Debug

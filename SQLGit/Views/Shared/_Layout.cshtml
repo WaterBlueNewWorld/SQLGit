@@ -1,57 +1,90 @@
-﻿<!DOCTYPE html>
-<html lang="en">
+﻿@Html.DevExpress().GetStyleSheets(
+        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.VerticalGrid },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.QueryBuilder },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
+        new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
+    )
+
+@Html.DevExpress().GetScripts(
+    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
+    new Script { ExtensionSuite = ExtensionSuite.CardView },
+    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
+    new Script { ExtensionSuite = ExtensionSuite.SpellChecker },
+    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
+    new Script { ExtensionSuite = ExtensionSuite.RichEdit },
+    new Script { ExtensionSuite = ExtensionSuite.Editors },
+    new Script { ExtensionSuite = ExtensionSuite.VerticalGrid },
+    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
+    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
+    new Script { ExtensionSuite = ExtensionSuite.Chart },
+    new Script { ExtensionSuite = ExtensionSuite.Report },
+    new Script { ExtensionSuite = ExtensionSuite.QueryBuilder },
+    new Script { ExtensionSuite = ExtensionSuite.GridView },
+    new Script { ExtensionSuite = ExtensionSuite.TreeList },
+    new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+)
+
+@using System.Web.Mvc;
+@using System.Web;
+@using System;
+@using DevExpress.Web.Mvc.UI
+
+<!DOCTYPE html>
+<html lang="en-US">
 <head>
     <meta charset="utf-8"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>@ViewData["Title"] - SQLGit</title>
-    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
-    <link rel="stylesheet" href="~/css/site.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - My ASP.NET Application</title>
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    //styles
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    
 </head>
-
 <body>
-<header>
-    <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-        <div class="container">
-            <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">SQLGit</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
             </button>
-            <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                <ul class="navbar-nav flex-grow-1">
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                    </li>
-                </ul>
-            </div>
+            @Html.ActionLink("Application name", "Index", "Home", new {area = ""}, new {@class = "navbar-brand"})
         </div>
-    </nav>
-</header>
-<div class="container">
-    <main role="main" class="pb-3">
-        @RenderBody()
-    </main>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("Home", "Index", "Home")</li>
+                <li>@Html.ActionLink("About", "About", "Home")</li>
+                <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="container body-content">
+    @RenderBody()
+    <hr/>
+    <footer>
+        <p>&copy; @DateTime.Now.2020 - My ASP.NET Application</p>
+    </footer>
 </div>
 
-<footer class="border-top footer text-muted">
-    <div class="container">
-        &copy; 2020 - SQLGit - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-    </div>
-</footer>
-<script src="~/lib/jquery/dist/jquery.min.js"></script>
-<script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-<script src="~/js/site.js" asp-append-version="true"></script>
-@await RenderSectionAsync("Scripts", required: false)
+@Scripts.Render("~/bundles/jquery")
+@Scripts.Render("~/bundles/bootstrap")
+@RenderSection("scripts", required: false)
 
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-<script
-  src="https://code.jquery.com/jquery-3.5.1.js"
-  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
-  crossorigin="anonymous"></script>
 </body>
 </html>
