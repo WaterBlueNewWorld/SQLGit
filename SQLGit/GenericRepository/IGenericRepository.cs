@@ -8,7 +8,7 @@ namespace SQLGit.GenericRepository
         T GetById(object id);
         void Insert(T obj);
         void Update(T obj);
-        void Insert(object id);
+        void Delete(object id);
         void Save();
 
     }

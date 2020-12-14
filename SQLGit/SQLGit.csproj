@@ -299,16 +299,19 @@
         </Reference>
     </ItemGroup>
     <ItemGroup>
+        <Compile Include="AdvController\AdvController.cs" />
         <Compile Include="App_Start\BundleConfig.cs" />
         <Compile Include="App_Start\FilterConfig.cs" />
         <Compile Include="App_Start\RouteConfig.cs" />
+        <Compile Include="Controllers\ConnectionController.cs" />
         <Compile Include="Controllers\HomeController.cs" />
         <Compile Include="GenericRepository\GenericRepository.cs" />
         <Compile Include="GenericRepository\IGenericRepository.cs" />
         <Compile Include="Global.asax.cs">
             <DependentUpon>Global.asax</DependentUpon>
         </Compile>
-        <Compile Include="Models\ConnectionModel.cs" />
+        <Compile Include="Models\Connection\ConnectionModel.cs" />
+        <Compile Include="Models\DBContext.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -424,6 +427,8 @@
         <Content Include="Scripts\umd\popper.js.map" />
         <Content Include="Scripts\umd\popper.min.js" />
         <Content Include="Scripts\umd\popper.min.js.map" />
+        <Content Include="Views\Connection\index.cshtml" />
+        <Content Include="Views\Connection\_ComboBoxDB.cshtml" />
         <Content Include="Web.config" />
         <Content Include="Web.Debug.config">
             <DependentUpon>Web.config</DependentUpon>
