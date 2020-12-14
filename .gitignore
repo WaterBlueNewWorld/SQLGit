@@ -3,3 +3,4 @@
 *.user
 packages/
 .vs/
+SQLGit/bin
