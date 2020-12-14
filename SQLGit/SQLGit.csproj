@@ -438,6 +438,9 @@
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Views\Screen\_EsquemaDestino.cshtml" />
+    <Content Include="Views\Screen\_EsquemaOrigen.cshtml" />
+    <Content Include="Views\Screen\_TablaDistinta.cshtml" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>

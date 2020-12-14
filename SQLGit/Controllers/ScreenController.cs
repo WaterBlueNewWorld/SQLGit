@@ -1,19 +1,31 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Web.Mvc;
+using DevExpress;
 using System.Linq;
-using System.Web;
-using System.Web.Mvc;
-using System.Web.Routing;
-using System.Web.Optimization;
-using DevExpress.Web;
+using Microsoft.Ajax.Utilities;
+
 namespace SQLGit.Controllers
 {
     public class ScreenController : Controller
     {
+        private Var model;
         // GET: Screen
         public ActionResult Index()
         {
+            
             return View();
+        }
+
+        public ActionResult TablaDistinta()
+        {
+            return PartialView("_TablaDistinta");
+        }
+        public ActionResult EsquemaOrigen()
+        {
+            return PartialView("_EsquemaOrigen");
+        }
+        public ActionResult EsquemaDestino()
+        {
+            return PartialView("_EsquemaDestino");
         }
     }
 }

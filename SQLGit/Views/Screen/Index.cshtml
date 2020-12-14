@@ -1,7 +1,56 @@
-﻿
+﻿@using DevExpress.Web.Mvc.UI
+
 @{
     ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
 }
+<div class="container">
+   <div class="card" style=" width:100%; padding:0;">
+           <div class="col-md-12" style="padding:0;" align="center">
+               <h3 style="border-top:3px solid #009688; border-bottom:3px solid #009688; margin:0;">Pizaña and Aviña Assemble</h3>
+           </div>
+       </div> 
+    <div class="card">
+        <div class="row">
+            <button id="btnCambiardb" class="btn btn-default">Seleccionar db</button>
+        </div>
+    </div>
+    
+    <div class="row">
+        <div class="col">
+            @Html.Action("TablaDistinta")
+        </div> 
+        <div class="col">
+            @Html.Action("EsquemaOrigen")
+        </div>
+        
+    </div>
+    <div class="row">
+        <div class="col">
+            @Html.Action("EsquemaDestino")
+        </div> 
+        <div class="col" >
+            <div class="row">
+                <button class="btn btn-default" id="btnNumeroRegistro">ver numero de registro</button>
+                <button class="btn btn-default" id="btnScriptOrigen">ver script de origen</button>
+                <button class="btn btn-default" id="btnScriptDestino">ver script de destino</button>
+                <button class="btn btn-default" id="btnCrearTablasMarcadas">crear tablas marcadas</button>
+                <button class="btn btn-default" id="btnCrearTablasNuevas">crear tablas nuevas</button>
+                <button class="btn btn-default" id="btnCrearCamposNuevos">crear campos nuevos</button>
+            </div>
+        </div>
+    
+        <div class="row">
+            <button class="btn btn-default" id="btnConsultar">Consultar</button>
+            <button class="btn btn-default" id="btnRelaciones">Relaciones</button>
+            <button class="btn btn-default" id="btnFaltantes">Faltantes</button>
+            <button class="btn btn-default" id="btnDistintos">Distintos</button>
+            <button class="btn btn-default" id="btnSobrantes">Sobrantes</button>
+            <button class="btn btn-default" id="btnSalir">Salir</button>
+        
+        
+        </div>
+    
+    </div>
 
-<h2>Index</h2>
-
+    </div>
