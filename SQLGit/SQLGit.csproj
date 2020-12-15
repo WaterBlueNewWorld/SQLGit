@@ -305,13 +305,9 @@
         <Compile Include="App_Start\RouteConfig.cs" />
         <Compile Include="Controllers\ConnectionController.cs" />
         <Compile Include="Controllers\HomeController.cs" />
-        <Compile Include="GenericRepository\GenericRepository.cs" />
-        <Compile Include="GenericRepository\IGenericRepository.cs" />
         <Compile Include="Global.asax.cs">
             <DependentUpon>Global.asax</DependentUpon>
         </Compile>
-        <Compile Include="Models\Connection\ConnectionModel.cs" />
-        <Compile Include="Models\DBContext.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
     </ItemGroup>
     <ItemGroup>
@@ -446,6 +442,7 @@
     </ItemGroup>
     <ItemGroup>
         <Folder Include="App_Data" />
+        <Folder Include="Models" />
     </ItemGroup>
     <ItemGroup>
         <Content Include="fonts\glyphicons-halflings-regular.woff2" />
@@ -462,6 +459,12 @@
     </ItemGroup>
     <ItemGroup>
       <TypeScriptCompile Include="Scripts\index.d.ts" />
+    </ItemGroup>
+    <ItemGroup>
+      <ProjectReference Include="..\SQLGit.Patterns\SQLGit.Patterns.csproj">
+        <Project>{4fa54361-924d-4dbb-8d79-8bac0960334c}</Project>
+        <Name>SQLGit.Patterns</Name>
+      </ProjectReference>
     </ItemGroup>
     <PropertyGroup>
         <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

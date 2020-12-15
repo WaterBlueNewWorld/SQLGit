@@ -2,8 +2,9 @@ using System.Data.SqlClient;
 using System.Linq;
 using System.Web.Mvc;
 using SQLGit.GenericRepository;
-using SQLGit.Models;
-using SQLGit.Models.Connection;
+using SQLGit.Patterns.Repositories.GenericRepository;
+using SQLGit.Patterns;
+using SQLGit.Patterns.Models.Connection;
 
 namespace SQLGit.Controllers
 {

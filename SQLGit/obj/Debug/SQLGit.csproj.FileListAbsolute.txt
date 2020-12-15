@@ -367,3 +367,6 @@ C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\obj\Debug\SQLGit.csproj.CoreCom
 C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\obj\Debug\SQLGit.csproj.CopyComplete
 C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\obj\Debug\SQLGit.dll
 C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\obj\Debug\SQLGit.pdb
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\bin\SQLGit.Patterns.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\bin\SQLGit.Patterns.pdb
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit\bin\SQLGit.Patterns.dll.config

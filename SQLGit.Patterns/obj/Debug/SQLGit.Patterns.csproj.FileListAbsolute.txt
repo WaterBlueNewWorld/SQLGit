@@ -1,0 +1,13 @@
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\SQLGit.Patterns.dll.config
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\SQLGit.Patterns.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\SQLGit.Patterns.pdb
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\EntityFramework.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\System.ComponentModel.Annotations.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\EntityFramework.xml
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\obj\Debug\SQLGit.Patterns.csprojAssemblyReference.cache
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\obj\Debug\SQLGit.Patterns.csproj.CoreCompileInputs.cache
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\obj\Debug\SQLGit.Patterns.csproj.CopyComplete
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\obj\Debug\SQLGit.Patterns.dll
+C:\Users\Joel Aviña\RiderProjects\SQLGit\SQLGit.Patterns\obj\Debug\SQLGit.Patterns.pdb
