@@ -438,6 +438,11 @@
     <Content Include="Scripts\umd\popper.js.map" />
     <Content Include="Scripts\umd\popper.min.js" />
     <Content Include="Scripts\umd\popper.min.js.map" />
+    <Content Include="Styles\StyleIndex.css" />
+    <Content Include="Views\Screen\BaseDestinoBox.cshtml" />
+    <Content Include="Views\Screen\BaseOrigenBox.cshtml" />
+    <Content Include="Views\Screen\ServidorDestinoBox.cshtml" />
+    <Content Include="Views\Screen\ServidorOrigenBox.cshtml" />
     <Content Include="Views\Screen\_EsquemaDestino.cshtml" />
     <Content Include="Views\Screen\_EsquemaOrigen.cshtml" />
     <Content Include="Views\Screen\_TablaDistinta.cshtml" />

@@ -4,53 +4,160 @@
     ViewBag.Title = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
-<div class="container">
-   <div class="card" style=" width:100%; padding:0;">
-           <div class="col-md-12" style="padding:0;" align="center">
-               <h3 style="border-top:3px solid #009688; border-bottom:3px solid #009688; margin:0;">Pizaña and Aviña Assemble</h3>
-           </div>
-       </div> 
-    <div class="card">
-        <div class="row">
-            <button id="btnCambiardb" class="btn btn-default">Seleccionar db</button>
-        </div>
-    </div>
-    
-    <div class="row">
-        <div class="col">
-            @Html.Action("TablaDistinta")
-        </div> 
-        <div class="col">
-            @Html.Action("EsquemaOrigen")
-        </div>
-        
-    </div>
-    <div class="row">
-        <div class="col">
-            @Html.Action("EsquemaDestino")
-        </div> 
-        <div class="col" >
-            <div class="row">
-                <button class="btn btn-default" id="btnNumeroRegistro">ver numero de registro</button>
-                <button class="btn btn-default" id="btnScriptOrigen">ver script de origen</button>
-                <button class="btn btn-default" id="btnScriptDestino">ver script de destino</button>
-                <button class="btn btn-default" id="btnCrearTablasMarcadas">crear tablas marcadas</button>
-                <button class="btn btn-default" id="btnCrearTablasNuevas">crear tablas nuevas</button>
-                <button class="btn btn-default" id="btnCrearCamposNuevos">crear campos nuevos</button>
+<style type="text/css" src="~/Styles/StyleIndex.css"></style>
+<div>
+    <div class="card" style=" width:100%; padding:0;">
+        <div class="card-title">
+            <div class="col-md-12" style="padding:0;" align="center">
+                <h3 style="border-top:3px solid #009688; border-bottom:3px solid #009688; margin:0;">Pizaña and Aviña Assemble</h3>
             </div>
         </div>
+        <div class="card-body">
+            <div class="row">
+                <button id="btnCambiardb" type="button" class="btn btn-default">Seleccionar db</button>
+            </div>
     
-        <div class="row">
-            <button class="btn btn-default" id="btnConsultar">Consultar</button>
-            <button class="btn btn-default" id="btnRelaciones">Relaciones</button>
-            <button class="btn btn-default" id="btnFaltantes">Faltantes</button>
-            <button class="btn btn-default" id="btnDistintos">Distintos</button>
-            <button class="btn btn-default" id="btnSobrantes">Sobrantes</button>
-            <button class="btn btn-default" id="btnSalir">Salir</button>
+    
+            <div class="row">
+                <div class="col">
+                    @Html.Action("TablaDistinta")
+                </div> 
+                <div class="col">
+                    @Html.Action("EsquemaOrigen")
+                </div>
         
+            </div>
+            <div class="row">
+                <div class="col">
+                    @Html.Action("EsquemaDestino")
+                </div> 
+                <div class="col" >
+                    <div id="Leftbtns" class="row">
+                        <button type="button" class="btn btn-default" id="btnNumeroRegistro">ver numero de registro</button>
+                        <button type="button" class="btn btn-default" id="btnScriptOrigen">ver script de origen</button>
+                        <button type="button" class="btn btn-default" id="btnScriptDestino">ver script de destino</button>
+                        <button type="button" class="btn btn-default" id="btnCrearTablasMarcadas">crear tablas marcadas</button>
+                        <button type="button" class="btn btn-default" id="btnCrearTablasNuevas">crear tablas nuevas</button>
+                        <button type="button" class="btn btn-default" id="btnCrearCamposNuevos">crear campos nuevos</button>
+                    </div>
+                </div>
+    
+                <div id="Lowbtns" class="row">
+                    <div class="col-md-4">
+                        <button type="button" class="btn btn-default" id="btnConsultar">Consultar</button>
+                        <button type="button" class="btn btn-default" id="btnRelaciones">Relaciones</button>
+                    </div>
+                    <div class="col-md-4">
+                        <label >Campos:</label>
+                        <button type="button" class="btn btn-danger" id="btnFaltantes">Faltantes</button>
+                        <button type="button" class="btn btn-warning" id="btnDistintos">Distintos</button> 
+                        <button type="button" class="btn btn-success" id="btnSobrantes">Sobrantes</button>
+                    </div>
+                   
+                    <div class="col-md-2">
+                        <button type="button" class="btn btn-default" id="btnSalir">Salir</button>
+                    </div>
+            
+                </div>
+
+            </div>
         
+
         </div>
     
     </div>
 
-    </div>
+</div>
+ <div id="modalConexion" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                   <h5 class="modal-title" id="exampleModalLongTitle">Selección de base de datos </h5>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="ServidorOrigenBox">Servidor de origen: </label>
+                            <div id="ServidorOrigenBox">
+                                @Html.Action("ServidorOrigenBox")
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <label for="ServidorDestinoBox">Servidor destino: </label>
+                            <div id="ServidorDestinoBox">
+                                @Html.Action("ServidorDestinoBox")
+                            </div>
+                        </div>
+                        
+                          <div class="row">
+                              <div class="col-md-4">
+                                  <label for="DireccionIpOrigen">Dirección ip: </label>
+                                  <div id="DireccionIpOrigen">
+                                    <input id="DireccionIpOrigen" type="text">
+                                  </div>
+                              </div>
+                              <div class="col-md-4">
+                                  <label for="DireccionIpDestino">Servidor destino: </label>
+                                  <div id="DireccionIpDestino">
+                                        <input id="DireccionIpDestino" type="text">
+                                  </div>
+                              </div>
+                          </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-4">
+                            <label for="BaseOrigenBox">Servidor de origen: </label>
+                            <div id="BaseOrigenBox">
+                                @Html.Action("BaseOrigenBox")
+                            </div>
+                        </div>
+                          
+                        <div class="col-md-4">
+                            <label for="BaseDestinoBox">Servidor de origen: </label>
+                            <div id="BaseDestinoBox">
+                                @Html.Action("BaseDestinoBox")
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+                <div class="modal-footer">
+                  <button type="submit" class="btn btn-outline-success btn-sm">
+                      <i class="fas fa-check" aria-hidden="true" style="font-size: 25px; line-height: 0.7em"></i></button>
+                </div>
+            </div>
+        </div>
+     </div>
+
+
+<style>
+
+    #Lowbtns{
+      float: bottom;
+      align-content: center;
+     cursor: pointer;
+     font-family: "Times New Roman", fantasy;
+     font-size: medium;
+    }
+    #btnCambiardb{
+        width: 20%;
+        font-size: 15px;
+    }
+    #btnSalir{
+    float: right;
+    }
+#Leftbtns{
+    float: right;
+    cursor: pointer;
+    font-family: "Times New Roman", fantasy;
+    width: 30%;
+    font-size: 18px;
+}
+    
+
+</style>
+
+
+    

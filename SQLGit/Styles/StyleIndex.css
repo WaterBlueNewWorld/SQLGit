@@ -1,0 +1,22 @@
+
+#Leftbtns{
+    float: right;
+    cursor: pointer;
+    font-family: "Times New Roman", fantasy;
+    width: 30%;
+   
+}
+
+
+#Lowbtns{
+   float: bottom;
+    align-content: center;
+    cursor: pointer;
+    font-family: "Times New Roman", fantasy;
+    font-size: medium;
+}
+
+#btnSalir{
+float: right;
+}
+
