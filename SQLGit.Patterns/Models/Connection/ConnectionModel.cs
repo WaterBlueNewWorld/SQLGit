@@ -11,6 +11,8 @@ namespace SQLGit.Patterns.Models.Connection
         public int IdConnection { get; set; }
         [Column("vanity_name")]
         public string VanityName { get; set; }
+        [Column("DatabaseIP")]
+        public string DatabaseIp { get; set; }
         [Column("db_uname")]
         public string User { get; set; }
         [Column("db_upass")]

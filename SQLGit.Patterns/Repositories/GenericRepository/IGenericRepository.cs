@@ -1,6 +1,6 @@
 using System.Collections.Generic;
 
-namespace SQLGit.GenericRepository
+namespace SQLGit.Patterns.Repositories.GenericRepository
 {
     public interface IGenericRepository <T> where T : class
     {

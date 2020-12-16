@@ -1,53 +1,77 @@
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
-using System.Diagnostics.CodeAnalysis;
 using System.Linq;
-using SQLGit.GenericRepository;
-using SQLGit.Patterns;
+using SQLGit.Patterns.Models;
+using SQLGit.Patterns.UnitOfWork;
 
 namespace SQLGit.Patterns.Repositories.GenericRepository
 {
-    public class GenericRepository<T> : IGenericRepository<T> where T : class
+    public class GenericRepository<T> : IGenericRepository<T>, IDisposable where T : class
     {
-        private DBContext _context = null;
-        private DbSet<T> table = null;
+        private IDbSet<T> _entities;
+        private string _error = String.Empty;
+        private bool _disposed;
+
+        public GenericRepository(IUnitOfWork<DBContext> unitOfWork)
+            : this(unitOfWork.Context)
+        {
+        }
 
         public GenericRepository(DBContext context)
         {
-            _context = context;
-            table = _context.Set<T>();
+            Context = context;
+        }
+
+        public DBContext Context { get; set; }
+
+        public virtual IQueryable<T> Tables
+        {
+            get { return Entities; }
+        }
+
+        public virtual IDbSet<T> Entities
+        {
+            get { return _entities ?? (_entities = Context.Set<T>()); }
+        }
+        public void Dispose()
+        {
+            if (Context != null)
+            {
+                Context.Dispose();
+            }
+
+            _disposed = true;
         }
 
         public IEnumerable<T> GetAll()
         {
-            return table.ToList();
+            return Entities.ToList();
         }
 
         public T GetById(object id)
         {
-            return table.Find(id);
+            return Entities.Find(id);
         }
 
         public void Insert(T obj)
         {
-            table.Add(obj);
+            throw new NotImplementedException();
         }
 
         public void Update(T obj)
         {
-            table.Attach(obj);
-            _context.Entry(obj).State = EntityState.Modified;
+            throw new NotImplementedException();
         }
 
         public void Delete(object id)
         {
-            T existing = table.Find(id);
-            table.Remove(existing);
+            throw new NotImplementedException();
         }
 
         public void Save()
         {
-            _context.SaveChanges();
+            throw new NotImplementedException();
         }
     }
 }

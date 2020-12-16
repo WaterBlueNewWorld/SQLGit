@@ -53,18 +53,22 @@
         <Reference Include="System.Xml" />
     </ItemGroup>
     <ItemGroup>
-        <Compile Include="DBContext.cs" />
         <Compile Include="Models\Connection\ConnectionModel.cs" />
+        <Compile Include="Models\DBContext.cs" />
         <Compile Include="Properties\AssemblyInfo.cs" />
         <Compile Include="Repositories\GenericRepository\GenericRepository.cs" />
         <Compile Include="Repositories\GenericRepository\IGenericRepository.cs" />
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="Models" />
+        <Compile Include="UnitOfWork\IUnitOfWork.cs" />
+        <Compile Include="UnitOfWork\UnitOfWork.cs" />
     </ItemGroup>
     <ItemGroup>
       <None Include="App.config" />
       <None Include="packages.config" />
+    </ItemGroup>
+    <ItemGroup>
+      <Content Include="SQLScripts\set_permission.sql" />
+      <Content Include="SQLScripts\sp_configure.sql" />
+      <Content Include="SQLScripts\SQLConnExec.sql" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
     <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
