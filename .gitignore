@@ -4,3 +4,6 @@
 packages/
 .vs/
 SQLGit/bin
+SQLGit/obj
+SQLGit.Patterns/bin
+SQLGit.Patterns/obj
