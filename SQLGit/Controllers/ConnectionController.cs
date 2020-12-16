@@ -13,9 +13,9 @@ namespace SQLGit.Controllers
         static string _sqlconn;
         private static DBContext db;
 
-        public ConnectionController()
+        public ConnectionController(string ip)
         {
-            _sqlconn = @"Data Source=172.30.20.165;Initial Catalog=SaasIntegral;Persist Security Info=True;User ID=saas;Password=VclDev2020.;";
+            _sqlconn = db.ConnectionModels.Where(x => x.DatabaseIp == ip).ToString();
             db = new DBContext(_sqlconn);
         }
 
