@@ -1,1 +1,13 @@
+@using DevExpress.Web
+@using DevExpress.Web.Mvc.UI
+@Html.DevExpress().ComboBox(settings =>
+{
+    settings.Name = "ServidorDestinoBox";
+    settings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    settings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    settings.Properties.ValueField = "DatabaseIp";
+    settings.Properties.TextField = "Servidor";
+    settings.Properties.CallbackPageSize = 1000;
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+}).GetHtml()
 

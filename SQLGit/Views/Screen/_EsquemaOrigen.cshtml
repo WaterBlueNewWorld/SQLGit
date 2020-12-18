@@ -1,0 +1,122 @@
+@using DevExpress.Utils
+@using DevExpress.Web
+@using DevExpress.Web.Mvc
+@using DevExpress.Web.Mvc.UI
+@{
+    var grid = Html.DevExpress().GridView(settings =>
+    {
+        settings.Name = "EOrigen";
+        settings.SettingsPager.Visible = true;
+        settings.SettingsPager.PageSizeItemSettings.Visible = true;
+        settings.SettingsPager.PageSizeItemSettings.ShowAllItem = true;
+        settings.SettingsPager.Position = System.Web.UI.WebControls.PagerPosition.Bottom;
+        settings.SettingsPager.FirstPageButton.Visible = true;
+        settings.SettingsPager.LastPageButton.Visible = true;
+        settings.SettingsPager.PageSizeItemSettings.Items = new string[] {"5", "10", "20", "50"};
+        settings.SettingsPager.PageSize = 20;
+
+
+        settings.SettingsAdaptivity.AdaptivityMode = GridViewAdaptivityMode.HideDataCells;
+        settings.SettingsAdaptivity.AdaptiveColumnPosition = GridViewAdaptiveColumnPosition.None;
+        settings.SettingsAdaptivity.AdaptiveDetailColumnCount = 1;
+        settings.SettingsAdaptivity.AllowOnlyOneAdaptiveDetailExpanded = false;
+        settings.SettingsAdaptivity.HideDataCellsAtWindowInnerWidth = 0;
+
+        settings.SettingsBehavior.AllowSelectByRowClick = true;
+        settings.SettingsBehavior.AllowFocusedRow = true;
+
+        settings.Styles.Cell.Paddings.Padding = System.Web.UI.WebControls.Unit.Pixel(5);
+        settings.StylesToolbar.Style.Paddings.PaddingLeft = 10;
+        settings.StylesToolbar.Style.Paddings.PaddingRight = 10;
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.Height = System.Web.UI.WebControls.Unit.Percentage(100);
+
+        settings.SettingsDataSecurity.AllowReadUnlistedFieldsFromClientApi = DefaultBoolean.True;
+        settings.ClientSideEvents.RowDblClick = "";
+
+        settings.SettingsExport.RenderBrick = (sender, e) =>
+        {
+            if (e.RowType == GridViewRowType.Data && e.VisibleIndex % 2 == 0)
+                e.BrickStyle.BackColor = System.Drawing.Color.FromArgb(0xEE, 0xEE, 0xEE);
+        };
+
+        settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+        settings.KeyFieldName = "ID_Connection";
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "ID_Connection";
+            column.Caption = "Id";
+            column.Visible = true;
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+            column.ReadOnly = true;
+            column.Width = 50;
+            column.EditFormSettings.Visible = DefaultBoolean.True;
+            column.HeaderStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+        });
+        
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "VanityName";
+            column.Caption = "Name";
+            column.Visible = true;
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+            column.ReadOnly = true;
+            column.Width = 50;
+            column.EditFormSettings.Visible = DefaultBoolean.True;
+            column.HeaderStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+        });
+        
+        
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "DBUser";
+            column.Caption = "USER";
+            column.Visible = true;
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+            column.ReadOnly = true;
+            column.Width = 50;
+            column.EditFormSettings.Visible = DefaultBoolean.True;
+            column.HeaderStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+        });
+
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "DBPassword";
+            column.Caption = "Password";
+            column.Visible = true;
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+            column.ReadOnly = true;
+            column.Width = 50;
+            column.EditFormSettings.Visible = DefaultBoolean.True;
+            column.HeaderStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+        });
+        
+
+
+        settings.Columns.Add(column =>
+        {
+            column.FieldName = "DatabaseIp";
+            column.Caption = "Ip";
+            column.Visible = true;
+            column.ColumnType = MVCxGridViewColumnType.TextBox;
+            column.ReadOnly = true;
+            column.Width = 50;
+            column.EditFormSettings.Visible = DefaultBoolean.True;
+            column.HeaderStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Center;
+            column.CellStyle.HorizontalAlign = System.Web.UI.WebControls.HorizontalAlign.Left;
+        });
+
+
+
+
+
+
+
+    }).Bind(Model).GetHtml();
+}

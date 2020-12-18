@@ -1,2 +1,15 @@
+@using DevExpress.Web
+@using DevExpress.Web.Mvc.UI
+@Html.DevExpress().ComboBox(settings =>
+{
+    settings.Name = "BaseOrigenBox";
+    settings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    settings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    settings.Properties.ValueField = "DBUser";
+    settings.Properties.TextField = "Origen";
+    settings.Properties.CallbackPageSize = 1000;
+    settings.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+}).GetHtml()
+
 
 

@@ -9,7 +9,7 @@
     <div class="card" style=" width:100%; padding:0;">
         <div class="card-title">
             <div class="col-md-12" style="padding:0;" align="center">
-                <h3 style="border-top:3px solid #009688; border-bottom:3px solid #009688; margin:0;">Pizaña and Aviña Assemble</h3>
+                <h3 style="border-top:3px solid #269abc; border-bottom:3px solid #269abc; margin:0;">Pizaña and Aviña Assembly</h3>
             </div>
         </div>
         <div class="card-body">
@@ -19,19 +19,14 @@
     
     
             <div class="row">
-                <div class="col">
+                <div class="col-md-4">
                     @Html.Action("TablaDistinta")
                 </div> 
-                <div class="col">
+                <div class="col-md-4">
                     @Html.Action("EsquemaOrigen")
                 </div>
-        
-            </div>
-            <div class="row">
-                <div class="col">
-                    @Html.Action("EsquemaDestino")
-                </div> 
-                <div class="col" >
+                
+                <div class="col-md-4">
                     <div id="Leftbtns" class="row">
                         <button type="button" class="btn btn-default" id="btnNumeroRegistro">ver numero de registro</button>
                         <button type="button" class="btn btn-default" id="btnScriptOrigen">ver script de origen</button>
@@ -41,7 +36,17 @@
                         <button type="button" class="btn btn-default" id="btnCrearCamposNuevos">crear campos nuevos</button>
                     </div>
                 </div>
-    
+            </div>
+            <div class="row">
+                <div class="col-md-4" >
+                </div>
+                <div id="Destino" class="col-md-4">
+                    @Html.Action("EsquemaDestino")
+                </div>
+                <div class="row">
+                    
+                </div>
+
                 <div id="Lowbtns" class="row">
                     <div class="col-md-4">
                         <button type="button" class="btn btn-default" id="btnConsultar">Consultar</button>
@@ -50,14 +55,14 @@
                     <div class="col-md-4">
                         <label >Campos:</label>
                         <button type="button" class="btn btn-danger" id="btnFaltantes">Faltantes</button>
-                        <button type="button" class="btn btn-warning" id="btnDistintos">Distintos</button> 
+                        <button type="button" class="btn btn-warning" id="btnDistintos">Distintos</button>
                         <button type="button" class="btn btn-success" id="btnSobrantes">Sobrantes</button>
                     </div>
-                   
+
                     <div class="col-md-2">
                         <button type="button" class="btn btn-default" id="btnSalir">Salir</button>
                     </div>
-            
+
                 </div>
 
             </div>
@@ -68,11 +73,12 @@
     </div>
 
 </div>
- <div id="modalConexion" class="modal fade " tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+<div class="card">
+ <div id="modalConexion" class="modal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog" role="document">
             <div class="modal-content">
                 <div class="modal-header">
-                   <h5 class="modal-title" id="exampleModalLongTitle">Selección de base de datos </h5>
+                    <h5 class="modal-title" id="closeModal">Selección de base de datos </h5>
                 </div>
                 <div class="modal-body">
                     <div class="row">
@@ -97,7 +103,7 @@
                                   </div>
                               </div>
                               <div class="col-md-4">
-                                  <label for="DireccionIpDestino">Servidor destino: </label>
+                                  <label for="DireccionIpDestino">Dirección ip: </label>
                                   <div id="DireccionIpDestino">
                                         <input id="DireccionIpDestino" type="text">
                                   </div>
@@ -107,14 +113,14 @@
 
                     <div class="row">
                         <div class="col-md-4">
-                            <label for="BaseOrigenBox">Servidor de origen: </label>
+                            <label for="BaseOrigenBox">Base de datos de origen: </label>
                             <div id="BaseOrigenBox">
                                 @Html.Action("BaseOrigenBox")
                             </div>
                         </div>
                           
                         <div class="col-md-4">
-                            <label for="BaseDestinoBox">Servidor de origen: </label>
+                            <label for="BaseDestinoBox">Base de datos de destino: </label>
                             <div id="BaseDestinoBox">
                                 @Html.Action("BaseDestinoBox")
                             </div>
@@ -125,12 +131,12 @@
                 </div>
                 <div class="modal-footer">
                   <button type="submit" class="btn btn-outline-success btn-sm">
-                      <i class="fas fa-check" aria-hidden="true" style="font-size: 25px; line-height: 0.7em"></i></button>
+                      <i class="fas fa-check" aria-hidden="true" style="font-size: 25px; line-height: 0.7em"></i>confirmar</button>
                 </div>
             </div>
         </div>
      </div>
-
+</div>
 
 <style>
 
@@ -139,25 +145,46 @@
       align-content: center;
      cursor: pointer;
      font-family: "Times New Roman", fantasy;
-     font-size: medium;
+     font-size: 10px;
     }
     #btnCambiardb{
         width: 20%;
         font-size: 15px;
+        border: 2px solid #2aabd2;
+        margin-bottom: 10px;
     }
     #btnSalir{
     float: right;
+    border: 1px solid #ac2925;
     }
 #Leftbtns{
-    float: right;
+    
     cursor: pointer;
     font-family: "Times New Roman", fantasy;
     width: 30%;
     font-size: 18px;
 }
-    
+#Destino{
+margin-bottom: 30px;
+} 
+
 
 </style>
 
+<script>
+
+$(document).ready(() =>{
+    
+    $("#modalConexion").draggable({
+        handle: '.modal-header'
+    });
+    
+})
+
+$("#btnCambiardb").click(function (){
+    $("#modalConexion").modal("show");
+})
+
+</script>
 
     
