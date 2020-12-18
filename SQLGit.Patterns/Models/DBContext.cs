@@ -14,6 +14,6 @@ namespace SQLGit.Patterns.Models
             
         }
 
-        public DbSet<ConnectionModel> ConnectionModels { get; set; }
+        public DbSet<ConnectionModel> ConnectionModel { get; set; }
     }
 }

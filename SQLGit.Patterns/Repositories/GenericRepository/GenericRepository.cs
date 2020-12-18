@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.Entity;
+using System.Data.Entity.Validation;
 using System.Linq;
 using SQLGit.Patterns.Models;
 using SQLGit.Patterns.UnitOfWork;
@@ -49,29 +50,137 @@ namespace SQLGit.Patterns.Repositories.GenericRepository
             return Entities.ToList();
         }
 
-        public T GetById(object id)
+        public virtual T GetById(object id)
         {
             return Entities.Find(id);
         }
 
-        public void Insert(T obj)
+        public virtual void Insert(T obj)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (obj == null)
+                {
+                    throw new ArgumentNullException("obj");
+                }
+                
+                if (Context == null || _disposed)
+                {
+                    Context = new DBContext();
+                }
+                Entities.Add(obj);
+            }
+            catch (DbEntityValidationException e)
+            {
+                foreach (var validationErrors in e.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        _error += string.Format("Property: {0} Error: {1}", validationError.PropertyName,
+                                      validationError.ErrorMessage)
+                                  + Environment.NewLine;
+                    }
+                }
+                throw new Exception(_error, e);
+            }
         }
 
-        public void Update(T obj)
+        public void BulkInsert(IEnumerable<T> entities)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (entities == null)
+                {
+                    throw new ArgumentException("entities");
+                }
+
+                Context.Configuration.AutoDetectChangesEnabled = false;
+                Context.Set<T>().AddRange(entities);
+                Context.SaveChanges();
+            }
+            catch (DbEntityValidationException e)
+            {
+                foreach (var validationErrors in e.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        _error += string.Format("Property: {0} Error: {1}", validationError.PropertyName,
+                                      validationError.ErrorMessage)
+                                  + Environment.NewLine;
+                    }
+                }
+
+                throw new Exception(_error, e);
+            }
+        }
+        
+        public virtual void Update(T obj)
+        {
+            try
+            {
+                if (obj == null)
+                {
+                    throw new ArgumentNullException("obj");
+                }
+                if (Context == null || _disposed)
+                {
+                    Context = new DBContext();
+                }
+
+                SetEntryModified(obj);
+            }
+            catch (DbEntityValidationException e)
+            {
+                foreach (var validationErrors in e.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        _error += string.Format("Property: {0} Error: {1}", validationError.PropertyName,
+                                      validationError.PropertyName)
+                                  + Environment.NewLine;
+                    }
+                }
+
+                throw new Exception(_error, e);
+            }
         }
 
-        public void Delete(object id)
+        public virtual void SetEntryModified(T entity)
         {
-            throw new NotImplementedException();
+            Context.Entry(entity).State = EntityState.Modified;
         }
+        
 
-        public void Save()
+        public virtual void Delete(T entity)
         {
-            throw new NotImplementedException();
+            try
+            {
+                if (entity == null)
+                {
+                    throw new ArgumentNullException("entity");
+                }
+        
+                if (Context == null || _disposed)
+                {
+                    Context = new DBContext();
+                }
+        
+                Entities.Remove(entity);
+            }
+            catch (DbEntityValidationException e)
+            {
+                foreach (var validationErrors in e.EntityValidationErrors)
+                {
+                    foreach (var validationError in validationErrors.ValidationErrors)
+                    {
+                        _error += string.Format("Property: {0} Error: {1}", validationError.PropertyName,
+                                      validationError.ErrorMessage)
+                                  + Environment.NewLine;
+                    }
+                }
+        
+                throw new Exception(_error, e);
+            }
         }
     }
 }

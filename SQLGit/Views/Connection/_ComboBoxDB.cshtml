@@ -1,1 +1,14 @@
-
+@using DevExpress.Web
+@using DevExpress.Web.Mvc.UI
+@Html.DevExpress().ComboBox(settings =>
+{
+    settings.Name = "ComboBox-Servers";
+    settings.Properties.IncrementalFilteringMode = IncrementalFilteringMode.StartsWith;
+    settings.Properties.DropDownStyle = DropDownStyle.DropDown;
+    settings.Properties.ValueField = "ID_Connections";
+    settings.Properties.TextField = "VanityName";
+    settings.Properties.Caption = "Server ip";
+    settings.Properties.CaptionCellStyle.Width = System.Web.UI.WebControls.Unit.Percentage(100);
+    settings.Properties.CaptionSettings.ShowColon = true;
+    settings.SelectedIndex = -1;
+}).BindList(Model).GetHtml()
