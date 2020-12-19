@@ -1,2 +1,3 @@
 # SQLGit (Tentative)
-**gfdhdfg**
+**Yet to be developed**
+
