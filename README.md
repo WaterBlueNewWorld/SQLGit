@@ -38,7 +38,7 @@ by Microsoft (Most of them focused in ASP.NET Core MVC)
     pass the connection string of the database you wish to connect for
     example:
 
-```
+```c#
 namespace Dummy.Controllers
 {
     public class DummyConnection : Controller
@@ -55,7 +55,7 @@ namespace Dummy.Controllers
   - To create a repository first you need to create a DBContext,
     following the last example the code should be like this:
 
-```
+```c#
 namespace Dummy.Controllers
 {
     public class DummyConnection : Controller
@@ -74,7 +74,7 @@ namespace Dummy.Controllers
   database, do not refrain in trying to modify it is main structure
   - To create an object of UnitOfWork you can do the following:
 
-```
+```c#
 namespace Dummy.Controllers
 {
     public class DummyConnection : Controller
