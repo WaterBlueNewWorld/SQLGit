@@ -17,7 +17,7 @@ namespace SQLGit.Controllers
 
         public ConnectionController()
         {
-            _sqlconn = "Data Source=172.30.20.114;Initial Catalog=BODIES_300_20201103_C_V533_R0;Persist Security Info=True;User ID=saas;Password=VclDev2020.";
+            _sqlconn = "";
             //_sqlconn = db.ConnectionModels.Where(x => x.DatabaseIp == ip).ToString();
             db = new DBContext(_sqlconn);
         }
