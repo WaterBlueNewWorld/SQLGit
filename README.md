@@ -33,7 +33,7 @@ by Microsoft (Most of them focused in ASP.NET Core MVC).
   model, as the project contains a Generic DBContext for that purpose
   - To create a model for a new database context you only need to create
     a new .cs file in the `Models` folder.
-  - To access an specific connection to the database you nust call an
+  - To access an specific connection to the database you must call an
     object of `DBContext` (not to be confused with DbContext), and then
     pass the connection string of the database you wish to connect for
     example:
@@ -91,3 +91,92 @@ namespace Dummy.Controllers
 }
 ```
 
+###
+###
+# Spanish
+
+# SQLGit (Tentativo)
+
+SQLGit es un replicador de tablas SQL cuya función principal es
+comparar y evaluar tablas de diferentes bases de datos, también permitiendo
+transferencia de tablas.
+
+# Licencia
+
+Este proyecto está licenciado bajo la licencia MIT y cualquier otra
+las modificacion o el uso de este proyecto necesita estar según el mencionado
+[licencia](https://github.com/WaterBlueNewWorld/SQLGit/blob/master/LICENSE).
+
+# Información del proyecto
+
+Este proyecto integra dos patrones de diseño para la coherencia de los datos.
+- [Patrón de repositorio genérico](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
+- [Patrón de unidad de trabajo](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
+
+Más ejemplos de estos patrones se pueden encontrar incluso en tutoriales hechos
+por Microsoft (la mayoría de ellos se centraron en ASP.NET Core MVC).
+
+- [Tutorial de Microsoft sobre MVC y patrones de diseño](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
+- ["Tutoriales DotNet" sobre la unidad de trabajo](https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/).
+
+# Características actuales
+
+- El proyecto es capaz de conectarse a una base de datos y obtener los campos especificados según el modelo enlazado.
+- La mayoría de las vistas aquí son templates hechos por Microsoft; las vistas se hicieron en la rama `master-piza` que se puede ver [aquí](https://github.com/WaterBlueNewWorld/SQLGit/tree/master-piza).
+- El proyecto no requiere implementar ningún contexto para cada nuevo modelo, ya que el proyecto contiene un DBContext genérico para ese propósito
+- Para crear un modelo para un nuevo contexto de base de datos, solo necesita crear
+un nuevo archivo .cs en la carpeta `Models`.
+- Para acceder a una conexión específica a la base de datos debe llamar a un
+objeto de `DBContext` (no debe confundirse con DbContext), y luego
+pase la cadena de conexión de la base de datos a la que desea conectarse
+ejemplo:
+
+```c#
+namespace Dummy.Controllers
+{
+    public class DummyConnection : Controller
+    {
+        static string _connection = "Data Source=192.168.100.1;Initial Catalog=database_main;"
+                                     +"Persist Security Info=True;User ID=user;Password=pa$$";
+        private static DBContext db = new DBContext(_connection);
+    }
+}
+```
+
+- El proyecto contiene un repositorio genérico para acciones CRUD, es
+recomienda utilizar el repositorio con la clase UnitOfWork.
+- Para crear un repositorio primero necesitas crear un DBContext,
+siguiendo el último ejemplo, el código debería ser así:
+
+```c#
+namespace Dummy.Controllers
+{
+    public class DummyConnection : Controller
+    {
+        static string _connection = "Data Source=192.168.100.1;Initial Catalog=database_main;"
+                                    +"Persist Security Info=True;User ID=user;Password=pa$$";
+        private static DBContext db = new DBContext(_connection);  
+        public GenericRepository _repo = new GenericRepository(db);
+    }
+}
+```
+
+- La Unidad de trabajo se declara similar en cómo un repositorio generico, pero con algunas diferencias; la clase / patrón UnitOfWork es una gran y poderosa herramienta en la gestión de la base de datos, no se abstengan en tratar de modificar su estructura principal.
+- Para crear un objeto de UnitOfWork puede hacer lo siguiente:
+
+```c#
+namespace Dummy.Controllers
+{
+    public class DummyConnection : Controller
+    {
+        static string _connection = "Data Source=192.168.100.1;Initial Catalog=database_main;"
+                                    +"Persist Security Info=True;User ID=user;Password=pa$$";
+        public static GenericRepository<DummyModel> _repo;
+        public static UnitOfWork _unit = new UnitOfWork<DBContext>();
+    
+        public DummyConnection(){
+            _repo = new GenericRepository<DummyModel>(_unit);
+        }
+    }
+}
+```
