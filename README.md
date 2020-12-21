@@ -103,9 +103,7 @@ transferencia de tablas.
 
 # Licencia
 
-Este proyecto está licenciado bajo la licencia MIT y cualquier otra
-las modificacion o el uso de este proyecto necesita estar según el mencionado
-[licencia](https://github.com/WaterBlueNewWorld/SQLGit/blob/master/LICENSE).
+Este proyecto está licenciado bajo la licencia MIT y cualquier otra modificacion o el uso de este proyecto necesita estar según la [licencia](https://github.com/WaterBlueNewWorld/SQLGit/blob/master/LICENSE).
 
 # Información del proyecto
 
@@ -113,8 +111,7 @@ Este proyecto integra dos patrones de diseño para la coherencia de los datos.
 - [Patrón de repositorio genérico](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
 - [Patrón de unidad de trabajo](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
 
-Más ejemplos de estos patrones se pueden encontrar incluso en tutoriales hechos
-por Microsoft (la mayoría de ellos se centraron en ASP.NET Core MVC).
+Más ejemplos de estos patrones se pueden encontrar incluso en tutoriales hechos por Microsoft (la mayoría de ellos se centraron en ASP.NET Core MVC).
 
 - [Tutorial de Microsoft sobre MVC y patrones de diseño](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
 - ["Tutoriales DotNet" sobre la unidad de trabajo](https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/).
@@ -124,11 +121,8 @@ por Microsoft (la mayoría de ellos se centraron en ASP.NET Core MVC).
 - El proyecto es capaz de conectarse a una base de datos y obtener los campos especificados según el modelo enlazado.
 - La mayoría de las vistas aquí son templates hechos por Microsoft; las vistas se hicieron en la rama `master-piza` que se puede ver [aquí](https://github.com/WaterBlueNewWorld/SQLGit/tree/master-piza).
 - El proyecto no requiere implementar ningún contexto para cada nuevo modelo, ya que el proyecto contiene un DBContext genérico para ese propósito
-- Para crear un modelo para un nuevo contexto de base de datos, solo necesita crear
-un nuevo archivo .cs en la carpeta `Models`.
-- Para acceder a una conexión específica a la base de datos debe llamar a un
-objeto de `DBContext` (no debe confundirse con DbContext), y luego
-pase la cadena de conexión de la base de datos a la que desea conectarse
+- Para crear un modelo para un nuevo contexto de base de datos, solo necesita crear un nuevo archivo .cs en la carpeta `Models`.
+- Para acceder a una conexión específica a la base de datos debe llamar a un objeto de `DBContext` (no debe confundirse con DbContext), y luego pase la cadena de conexión de la base de datos a la que desea conectarse
 ejemplo:
 
 ```c#
@@ -143,10 +137,8 @@ namespace Dummy.Controllers
 }
 ```
 
-- El proyecto contiene un repositorio genérico para acciones CRUD, es
-recomienda utilizar el repositorio con la clase UnitOfWork.
-- Para crear un repositorio primero necesitas crear un DBContext,
-siguiendo el último ejemplo, el código debería ser así:
+- El proyecto contiene un repositorio genérico para acciones CRUD, y para este es recomendable utilizar el repositorio con la clase UnitOfWork.
+- Para crear un repositorio primero necesitas crear un DBContext, siguiendo el último ejemplo el código debería ser así:
 
 ```c#
 namespace Dummy.Controllers
@@ -161,7 +153,7 @@ namespace Dummy.Controllers
 }
 ```
 
-- La Unidad de trabajo se declara similar en cómo un repositorio generico, pero con algunas diferencias; la clase / patrón UnitOfWork es una gran y poderosa herramienta en la gestión de la base de datos, no se abstengan en tratar de modificar su estructura principal.
+- La clase Unidad de trabajo (UnitOfWork) se declara similar en cómo un repositorio generico (GenericRepository), pero con algunas diferencias; la clase / patrón UnitOfWork es una gran y poderosa herramienta en la gestión de la base de datos, no se abstengan en tratar de modificar su estructura principal.
 - Para crear un objeto de UnitOfWork puede hacer lo siguiente:
 
 ```c#
