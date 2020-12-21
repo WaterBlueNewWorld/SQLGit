@@ -2,12 +2,12 @@ SET NOCOUNT ON;
 
 DECLARE @sql NVARCHAR(MAX), @cols NVARCHAR(MAX) = N'', @tablename NVARCHAR(MAX);
 
-SELECT @cols += N',' + name + ' ' + system_type_name
-FROM sys.dm_exec_describe_first_result_set(N'SELECT * FROM dbo.ADS$', NULL, 1);
+SELECT @cols += N' [' + name +  '] ' + system_type_name+ N',' + CHAR(10)
+FROM sys.dm_exec_describe_first_result_set(N'SELECT * FROM '+ @tablename, NULL, 1);
 
-SET @cols = STUFF(@cols, 1, 1, N'');
+SET @cols = STUFF(@cols, 1, 1, CHAR(10));
 
-SET @sql = N'CREATE TABLE ADS$(' + @cols + ');'
+SET @sql = N'CREATE TABLE '+@tablename+'(' + @cols + ');'
 
 --DECLARE @dbs TABLE(db SYSNAME);
 
