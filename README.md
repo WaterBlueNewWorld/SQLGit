@@ -2,7 +2,7 @@
 
 SQLGit is an SQL table replicator which it is main function is to
 compare and evaluate tables from different databases, also allowing to
-transfer tables to another database
+transfer tables to another database.
 
 # License
 
@@ -12,27 +12,27 @@ modifications or usage of this project needs be according the mentioned
 
 # Project information
 
-This project integrates two design patterns for data consistency
-- [Generic Repository pattern](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
-- [Unit Of Work pattern](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application)
+This project integrates two design patterns for data consistency.
+- [Generic Repository pattern](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
+- [Unit Of Work pattern](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/implementing-the-repository-and-unit-of-work-patterns-in-an-asp-net-mvc-application).
 
 More examples of these patterns can be be even found in tutorials made
-by Microsoft (Most of them focused in ASP.NET Core MVC)
+by Microsoft (Most of them focused in ASP.NET Core MVC).
 
-- [Microsoft tutorial about MVC and design patterns](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application)
-- ["DotNet Tutorials" tutorial about Unit Of Work](https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/)
+- [Microsoft tutorial about MVC and design patterns](https://docs.microsoft.com/en-us/aspnet/mvc/overview/older-versions/getting-started-with-ef-5-using-mvc-4/creating-an-entity-framework-data-model-for-an-asp-net-mvc-application).
+- ["DotNet Tutorials" tutorial about Unit Of Work](https://dotnettutorials.net/lesson/unit-of-work-csharp-mvc/).
 
 # Current features
 
 - The project is able to connect to a database and fetch the specified
-  fields according to the binded model
+  fields according to the binded model.
 - Most of the views here are placeholders created by Microsoft; views
   were made in the `master-piza` branch which can be seen
-  [here](https://github.com/WaterBlueNewWorld/SQLGit/tree/master-piza)
+  [here](https://github.com/WaterBlueNewWorld/SQLGit/tree/master-piza).
 - The project does not require to implement any Context for each new
   model, as the project contains a Generic DBContext for that purpose
   - To create a model for a new database context you only need to create
-    a new .cs file in the `Models` folder
+    a new .cs file in the `Models` folder.
   - To access an specific connection to the database you nust call an
     object of `DBContext` (not to be confused with DbContext), and then
     pass the connection string of the database you wish to connect for
@@ -71,7 +71,7 @@ namespace Dummy.Controllers
 - Unit Of Work design pattern is declared similar on how a Generic
   Repository is made with a little few differences; the UnitOfWork
   class/pattern is a great and powerful tool in to managing the
-  database, do not refrain in trying to modify it is main structure
+  database, do not refrain in trying to modify it is main structure.
   - To create an object of UnitOfWork you can do the following:
 
 ```c#
