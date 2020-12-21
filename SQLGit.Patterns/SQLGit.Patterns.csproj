@@ -66,8 +66,9 @@
       <None Include="packages.config" />
     </ItemGroup>
     <ItemGroup>
+      <Content Include="SQLScripts\copy_table.sql" />
       <Content Include="SQLScripts\set_permission.sql" />
-      <Content Include="SQLScripts\sp_configure.sql" />
+      <Content Include="SQLScripts\sp_config.sql" />
       <Content Include="SQLScripts\SQLConnExec.sql" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
