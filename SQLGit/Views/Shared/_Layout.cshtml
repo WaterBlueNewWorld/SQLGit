@@ -1,39 +1,17 @@
 ﻿@Html.DevExpress().GetStyleSheets(
-        new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.CardView },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.PivotGrid },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.SpellChecker },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.HtmlEditor },
+        
+    new StyleSheet { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
         new StyleSheet { ExtensionSuite = ExtensionSuite.RichEdit },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Editors },
         new StyleSheet { ExtensionSuite = ExtensionSuite.VerticalGrid },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Spreadsheet },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Scheduler },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Chart },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Report },
         new StyleSheet { ExtensionSuite = ExtensionSuite.QueryBuilder },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.TreeList },
-        new StyleSheet { ExtensionSuite = ExtensionSuite.Dashboard }
+        new StyleSheet { ExtensionSuite = ExtensionSuite.GridView }
     )
 
 @Html.DevExpress().GetScripts(
-    new Script { ExtensionSuite = ExtensionSuite.NavigationAndLayout },
-    new Script { ExtensionSuite = ExtensionSuite.CardView },
-    new Script { ExtensionSuite = ExtensionSuite.PivotGrid },
-    new Script { ExtensionSuite = ExtensionSuite.SpellChecker },
-    new Script { ExtensionSuite = ExtensionSuite.HtmlEditor },
     new Script { ExtensionSuite = ExtensionSuite.RichEdit },
-    new Script { ExtensionSuite = ExtensionSuite.Editors },
     new Script { ExtensionSuite = ExtensionSuite.VerticalGrid },
-    new Script { ExtensionSuite = ExtensionSuite.Spreadsheet },
-    new Script { ExtensionSuite = ExtensionSuite.Scheduler },
-    new Script { ExtensionSuite = ExtensionSuite.Chart },
-    new Script { ExtensionSuite = ExtensionSuite.Report },
     new Script { ExtensionSuite = ExtensionSuite.QueryBuilder },
-    new Script { ExtensionSuite = ExtensionSuite.GridView },
-    new Script { ExtensionSuite = ExtensionSuite.TreeList },
-    new Script { ExtensionSuite = ExtensionSuite.Dashboard }
+    new Script { ExtensionSuite = ExtensionSuite.GridView }
 )
 
 @using System.Web.Mvc;
@@ -82,8 +60,8 @@
 
 @RenderSection("scripts", required: false)
 
+
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
-<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
 </body>
 </html>
